@@ -43,6 +43,28 @@ This project builds a self-driving car control system using **EfficientNetB5 & B
 - **MLOps & Deployment**: TensorFlow Lite, Edge TPU, Docker
 
 ---
+## 🔬 Model Experiments  
+
+We tested multiple deep learning architectures and training strategies to optimise performance. Below is a summary of key results:  
+
+| Model                     | Validation Accuracy | MSE  | Key Techniques |
+|---------------------------|--------------------|------|---------------|
+| **EfficientNetB5 + B7 (Ensemble)** | **97.32%** | **0.0131** | Ensembling, K-Fold, Augmentation, Learning Rate Scheduling |
+| **MobileNetV2 (K-Fold Validation)** | **97.25%** | **0.0134** | K-Fold, Augmentation, Advanced Data Preprocessing |
+| **EfficientNetB7 (Baseline)** | **97.00%** | **0.0138** | Baseline Training, Custom Weight Initialisation |
+| **EfficientNetB2 (K-Fold + Aug)** | **96.50%** | **0.0157** | K-Fold, Augmentation, Label Smoothing |
+
+📌 **Key Insights**:  
+✅ **EfficientNetB5 + B7 (Ensemble)** achieved the highest accuracy & lowest error.  
+✅ **K-Fold Cross-Validation & Augmentation** significantly improved performance.  
+✅ **MobileNetV2** offers **faster inference**, making it ideal for deployment.  
+
+For **detailed experiment results**, including more models & training logs, check the full notebook:  
+📄 [Full Experiment Results](./experiments.ipynb)
+
+
+
+---
 
 ## 🔧 **Training & Inference**
 ### 🏋️‍♂️ **Train the Model**
