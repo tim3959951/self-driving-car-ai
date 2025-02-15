@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.egg-info/
+*.log
+
+# Ignore dataset & large files
+data/
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.mp4
+
+# Ignore model weights & checkpoints
+*.h5
+*.pkl
+*.ckpt
+*.tflite
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary & compiled files
+*.tmp
+*.out
+*.exe
+
+# Ignore VSCode & IDE settings
+.vscode/
+.idea/
