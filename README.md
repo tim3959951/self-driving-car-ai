@@ -23,7 +23,7 @@ This project builds a self-driving car control system using **EfficientNetB5 & B
 | 📂 `src`                         | Model training & inference scripts |
 | 📂 `experiments`                 | Model experiments & evaluation |
 | 📄 `ensemble_kfold_imgaug.ipynb` | Full training pipeline notebook |
-| 📄 `data_analysis.ipynb`         | Data exploration & visualisation |
+| 📄 `evaluate_h5_model.ipynb`         | Data exploration & visualisation |
 | 📄 `requirements.txt`            | Dependencies |
 | 📄 `README.md`                   | Project documentation |
 | 📄 `.gitignore`                  | Ignore unnecessary files |
