@@ -61,7 +61,7 @@ We tested multiple deep learning architectures and training strategies to optimi
 ✅ **MobileNetV2** offers **faster inference**, making it ideal for deployment.  
 
 For **detailed experiment results**, including more models & training logs, check the full notebook:  
-📄 [Full Experiment Results](./experiments.ipynb)
+📄 [Full Experiment Results](./experiments)
 
 
 
