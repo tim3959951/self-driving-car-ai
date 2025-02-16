@@ -15,22 +15,23 @@ This project builds a self-driving car control system using **EfficientNetB5 & B
 
 ---
 
-## 📂 **Project Structure**
 
-📂 self-driving-car-ai
+## 📂 Project Structure
 
-│── 📂 src      
-│   ├── model.py           
-│   ├── data_loader.py    
-│   ├── augmentation.py    
-│   ├── train.py           
-│   ├── inference.py      
-│   ├── data_analysis.py   
-│── **ensemble_kfold_imgaug.ipynb**   # Full training process in a notebook
-│── **data_analysis.ipynb**   
-│── requirements.txt       
-│── README.md              
-│── .gitignore     
+| File/Folder                      | Description |
+|----------------------------------|--------------------------------------------------|
+| 📂 `src`                         | Model training & inference scripts |
+| 📂 `experiments`                 | Model experiments & evaluation |
+| 📄 `ensemble_kfold_imgaug.ipynb` | Full training pipeline notebook |
+| 📄 `data_analysis.ipynb`         | Data exploration & visualisation |
+| 📄 `requirements.txt`            | Dependencies |
+| 📄 `README.md`                   | Project documentation |
+| 📄 `.gitignore`                  | Ignore unnecessary files |
+
+
+
+
+
 
 # Project documentation
 ---
