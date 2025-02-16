@@ -41,7 +41,7 @@ This project builds a self-driving car control system using **EfficientNetB5 & B
 - **Computer Vision**: OpenCV, Image Augmentation (ImgAug)
 - **Training Techniques**: K-Fold Cross-Validation, Hyperparameter Tuning
 - **Optimisation**: Learning Rate Scheduling, Model Pruning, Quantisation
-- **MLOps & Deployment**: TensorFlow Lite, Edge TPU, Docker
+- **MLOps & Deployment**: TensorFlow Lite, Edge TPU
 
 ---
 ## 🔬 Model Experiments  
