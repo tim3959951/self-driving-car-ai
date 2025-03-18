@@ -2,7 +2,7 @@
 
 🏆 **Kaggle Competition (2nd Place) | Deep Learning | Computer Vision**  
 
-This project builds a self-driving car control system using **EfficientNetB5 & B7 CNNs**, trained on a dataset of steering angles and speeds. The model optimises real-time inference with **TensorFlow Lite & Edge TPU**, while employing **K-Fold Cross-Validation and Image Augmentation** for robustness.
+This project builds a self-driving car control system using **an ensemble of EfficientNetB5 & EfficientNetB7 CNNs**, trained on a dataset of steering angles and speeds. For real-time self-driving applications, a **MobileNet model optimized with TensorFlow Lite & Edge TPU** enhances inference efficiency. To improve robustness, the system employs **K-Fold Cross-Validation and Image Augmentation**. The model is designed to navigate complex driving scenarios, including **traffic lights, roundabouts, figure-eight tracks, T-junctions, pedestrians, and obstacles**, ensuring safe and efficient autonomous driving.
 
 ---
 
